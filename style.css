@@ -216,3 +216,22 @@ footer {
     font-size: 0.82rem;
     color: var(--texto-suave);
 }
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-links {
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+}
