@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog - Desire Martins</title>
+</head>
+    <link rel="stylesheet" href="style.css">  <!--conesta o arquivo de estilo-->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">  <!--carrega as fontes do google-->
+<body>
+    <header> <!--tag semântica-cabeçalho da página-->
+        <div class="header-inner">
+
+            <a href="#" class="logo">meu Blog</a>
+
+            <nav>  <!--tag semântica navegação-agrupa os links do menu-->
+                <a href="#posts">Blog</a>
+                <a href="#sobre">Sobre</a>
+                <a href="https://github.com/demartins-dev">GitHub</a>
+            </nav>
+
+        </div>
+    </header> 
+    
+    <section class="hero">  <!--tag semântica para uma secão da página (como um capítulo)-->
+        <div class="hero-texto">
+            <p class="eyebrow">Blog Pessoal</p>
+            <h1>Tecnologia, Ensino e tudo que me move.</h1>
+            <p class="descrição"
+                Aqui documento minha jornada na programação,
+                compartilho aprendizados e escrevo sobre o que 
+                me inspira - dentro e fora da sala de aula.
+            </p>
+            <a href="#posts" class="botão">Ler os posts -></a>
+        </div>
+    </section>
+
+    <section class="posts-section" id="posts">
+        
+        <h2>Posts recentes</h2>
+
+        <div class="posts-grid">
+            <!--Post 1-->
+            <article class="post-card">
+                <div class="post-thumb">💻</div>
+                <div class="post-body">
+                    <span class="post-tag">Tecnologia</span>
+                    <h3>Minha jornada em programação</h3>
+                    <p>Iniciei sem saber nada de programação. Após dois meses, tenho projetos no GitHub e um portfólio no ar.</p>
+                    <a href="#">Ler mais -></a>
+                </div>
+            </article>
+
+            <!--Post 2-->
+            <article class="post-card">
+                <div class="post-thumb">🎓</div>
+                <div class="post-body">
+                    <span class="post-tag">Educação</span>
+                    <h3>Ensinar e aprender ao mesmo tempo é desafiador.</h3>
+                    <p>Ser professora me ensinou a ser uma aluna melhor.</p>
+                    <a href="#">Ler mais -></a>
+                </div>
+            </article>
+
+            <!--Post 3-->
+            <article class="post-card">
+                <div class="post-thumb">⌨</div>
+                <div class="post-body">
+                    <span class="post-tag">Código</span>
+                    <h3>Git na prática: do zero ao primeiro commit</h3>
+                    <p>Do primeiro erro no terminal ao repositório no ar - minha experiência real aprendendo Git do zero.</p>
+                    <a href="#">Ler mais -></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="Sobre" id="Sobre">
+        <div class="sobre-conteúdo">
+            <h2>Olá, Sou a Desire</h2>
+            <p>
+                Professora em transição para área de programação.
+                Busco transformar cada aprendizado em prática,
+                unindo educação com tecnologia.
+                Escrevo sobre tecnologia, Educação e a minha trajetória aprendendo a programar do zero.
+            </p>
+            <div class="sobre-links">
+                <a href="https://demartins-dev.github.io/Portfolio">🌐 Portfólio</a>
+                <a href="https://github.com/demartins-dev">🐙 GitHub</a>
+                <a href="https://linkedin.com/in/desiremartins">💼 LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Desire Martins · Feito com HTML, CSS e JS</p>
+    </footer>
+</body>
+</html>
